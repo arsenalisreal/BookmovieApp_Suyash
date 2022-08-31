@@ -1,9 +1,9 @@
 import React from "react";
-import Home from "../screens/home/Home";
-import Details from "../screens/details/Details";
+import Home from "C:/Users/Suyash/Desktop/BookMovieApp/src/screens/home/Home";
+import Details from "C:/Users/Suyash/Desktop/BookMovieApp/src/screens/details/Details";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import BookShow from "../screens/bookshow/BookShow";
-import Confirmation from "../screens/confirmation/Confirmation";
+import BookShow from "C:/Users/Suyash/Desktop/BookMovieApp/src/screens/bookshow/BookShow.js";
+import Confirmation from "C:/Users/Suyash/Desktop/BookMovieApp/src/screens/confirmation/Confirmation";
 
 const Controller = () => {
   const baseUrl = "/api/v1/";
